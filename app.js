@@ -1,3 +1,5 @@
+// Q1
+
 // 1. ‐9*3                             the answer is : -27
 // 2. “value is “ + 50                 the answer is : value is 50
 // 3. 17 % 5                           the answer is : 2
@@ -90,3 +92,60 @@
 //     default:
 //         alert("PLEASE TRY AGAIN");
 // }
+
+
+
+// Q7: Use a loop to display the numbers 0 through 5, each in a separate alert window.
+// for ( let i = 0; i <=5; i++ ) {
+//     alert(i);
+// }
+
+// Q8: Use a loop to display the numbers 0 through 5 in a single alert window
+// for ( let i = 0; i <=5; i++ ) {
+//     alert(i);
+// }
+// let numbers = "";
+// for (let i = 0; i <= 5; i++){
+//     numbers += i;
+// }
+// alert(numbers);
+
+// Q9: Use a loop to display the numbers in the range 0…20 that are multiples of 3. 
+// for (let i = 0; i <=20; i++) {
+//     alert(i*3);
+// }
+
+// Q10: Prompt the user for a number in the range 0…100.  If the number is out of range, display an error message and prompt again until a valid number is entered.  Assume the user enters a number each time
+// var ask = prompt("Enter a Number between 0 to 100");
+// while (ask < 0 || ask > 100) {
+//     alert("Error Enter a number in the required range !!");
+//     var ask = prompt("Enter a Number between 0 to 100");
+// }
+
+// Q11: Repeat previous exercise, but this time allow for the possibility that the user enters something that is not a number.  Hint: the built in function isNaN(x) returns true if x is not a number.  It returns false if x is a number.  Sort of backwards, but that's what's available.
+// let any = prompt("Enter anything but not a Number ");
+// let any2 = "";
+// if (isNaN(any)){
+//     for (let i = any.length-1; i >= 0 ; i--){
+//         any2 = any2 + any.charAt(i);
+//     }
+// }
+// alert(any2);
+
+// Q12: Prompt for an integer, then display the sum of the integers from 0 through the number entered.  For example, if you enter 10, then display 55 which is the sum of   0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10
+// let number = prompt("put the number range 0-100");
+
+// let number2 = 0;
+// for (let i = 0; i <= number;i++) {
+//   number2 += i;
+// }
+// alert(number2);
+
+// Q13: Prompt for an integer, then display the average of the integers from 0 through the number entered.  For example, if you enter 10, then display 5 which is the average of   (0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10)/11.
+// let number = 0;
+// let number2 = prompt("Enter a Number ") * 1;
+// for (let i = 1; i <= number2; i++){
+//     number += i;
+// }
+// let average = number / (number2 + 1) ;
+// alert(average);
