@@ -149,3 +149,6 @@
 // }
 // let average = number / (number2 + 1) ;
 // alert(average);
+
+
+
